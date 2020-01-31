@@ -1,0 +1,15 @@
+.custom-header:before {
+  background-image: url(../img/cropped-DSC_0095-scaled-1.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-title a,
+.site-description {
+  color: #ffffff;
+}
+
+body.custom-background {
+  background-color: #ffffff;
+}
