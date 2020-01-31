@@ -1,3 +1,3 @@
-# [Personal website](http://rgfigueredo91.github.io/)
+# [Personal website](https://rgf.uy/)
 
-This is [my personal website](http://rgfigueredo91.github.io/).
+This is [my personal website](https://rgf.uy/).
