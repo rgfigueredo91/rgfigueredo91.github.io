@@ -141,9 +141,15 @@ i {
 
 
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
+
+  .column {
+    width: 100%;
+   
+	}
 
 body {
+
 	overflow-x: hidden;
 	}
 
@@ -151,14 +157,14 @@ body {
 	height: 100vh;
 	width: 100%;
 	display: grid;
-	grid-template-columns: auto 140px;
+	grid-template-columns: auto;
 	grid-template-rows: 
 	70px
-	auto
-	50px;
-	grid-template-areas: "h h"
-						 "m m"
-						 "m m"
+	auto;
+	
+	grid-template-areas: "h"
+						 "m"
+						 
 						 
 	}
 
@@ -210,6 +216,7 @@ body {
 	}
 
 .nav-links a {
+
 	color: black;
 	text-decoration: none;
 	font-size: 10px;
@@ -219,6 +226,7 @@ body {
 	}
 
 .burguer div{
+
 	width: 30px;
 	height: 3px;
 	color: black;
@@ -271,6 +279,13 @@ body {
 	font-size: 20px;
 	}
 
+.smalllogo {
+	display: none;
+}
+
+.navizq {
+	display: none;
+}
 
 }
 
