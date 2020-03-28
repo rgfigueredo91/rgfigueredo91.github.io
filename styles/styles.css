@@ -143,13 +143,8 @@ i {
 
 @media screen and (max-width: 600px) {
 
-  .column {
-    width: 100%;
-   
-	}
 
 body {
-
 	overflow-x: hidden;
 	}
 
@@ -159,13 +154,10 @@ body {
 	display: grid;
 	grid-template-columns: auto;
 	grid-template-rows: 
-	70px
-	auto;
-	
+	30px
+	auto;	
 	grid-template-areas: "h"
-						 "m"
-						 
-						 
+						 "m"								 
 	}
 
 .imgbk {
@@ -178,15 +170,10 @@ body {
 	top: 0;
 	right: 0;
 	bottom: 0;
-    height: 100vh;
+    height: 800px;
     visibility: visible;
     z-index: -1;
 	
-	}
-
-.main {
-	grid-area: m;
-	display: flex;
 	}
 
 .nav {
@@ -194,13 +181,13 @@ body {
 	}
 
 .header {
-
+	width: 100%;
+	position: fixed;
 	height: 10vh;
 	justify-content: space-between;
 	background-color: white;
 	display: flex;
 	align-items: center;
-
 	}
 
 #logophone {
@@ -226,20 +213,17 @@ body {
 	}
 
 .burguer div{
-
 	width: 30px;
 	height: 3px;
 	color: black;
 	background-color: black;
 	margin: 5px;
-	margin-right: 20px;
-	
 	}
 
 .nav-links {
+	position: fixed;
 	display: flex;
 	flex-direction: column;
-	position: absolute;
 	right: 0;
 	height: 90vh;
 	top: 10vh;
@@ -279,13 +263,6 @@ body {
 	font-size: 20px;
 	}
 
-.smalllogo {
-	display: none;
-}
-
-.navizq {
-	display: none;
-}
 
 }
 
