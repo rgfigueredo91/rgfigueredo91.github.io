@@ -25,24 +25,48 @@
 
 .main {
 	grid-area: m;
-
-
 	}
 
 .imgbk {
-
-	
 	background-image: url(../img/barbacue.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
 	background-position: center, center;
-	position: absolute;
+	-webkit-animation-name: slide;
+	-webkit-animation-duration: 40s;
+	-webkit-animation-iteration-count: infinite;
 	left: 230px;
 	top: 0;
 	right: 0;
 	bottom: 30px;
-    height: 100vh;  
+    height: 100vh; 
+    z-index: -1; 
 	}
 
+@-webkit-keyframes slide {
+	25% {
+		background-image: url(../img/barbacue.jpg);
+		}
+
+	25.00001% {background-image: url(../img/lab.jpg);
+		}
+
+	70% {background-image: url(../img/lab.jpg);
+		}
+
+	70.00001% {
+		background-image: url(../img/kitchen.jpg);
+		}
+
+	95% {
+		background-image: url(../img/kitchen.jpg);
+		}
+
+	95.00001% {
+		background-image: url(../img/barbacue.jpg);
+		}
+	}
 
 .section {
 	background-color: blue;
@@ -52,19 +76,15 @@
 	}
 
 .nav {
-
 	background-color: white;
 	grid-area: n;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	text-align: center;
-	
 	}
 
-
 .navizq {
-	
 	position: absolute;
 	left: 75px;
 	top: 250px;
@@ -74,22 +94,16 @@
 	font-size: 13px;
 	list-style-type: none;
 	line-height: 30px;
-
 	}
-
 
 .item a{
 	text-decoration: none;
 	color: black;
 	}
 
-.item a:hover {
-	
+.item a:hover {	
 	text-decoration: underline;	
-	
-}
-
-	
+	}
 
 .logo img {
 	height: 80px;
@@ -112,16 +126,13 @@
 	}
 
 .social-icons {
-
 	position: absolute;
 	bottom: 150px;
 	left: 60px;
 	color: black;
-
 	}
 
 .smalllogo img {
-
 	position: absolute;
 	bottom: 50px;
 	left: 102px;
