@@ -127,62 +127,77 @@
 	}
 
 i {
-
 	color: black;
 	}
 
-.mainabout {
+.maincontact {
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+	
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	}
 
-.imgparagraph {
 
-	text-align: center;
-	text-align: justify;
-	width: 300px;
-	font-size: 13px;
-	margin-right: 15px;
-	height: 500px;
+#mapa {
+	display: block;
+	height: 100%;
+	width: 100%;
 	
-
-	}
-
-.onlyp {
-	text-align: justify;
-	font-size: 13px;
-	width: 300px;
-	margin-left: 15px;
-	height: 500px;
-	line-height: 20px;
-	}
-
-#photome {
-	width: 300px;
-	border-radius: 15px;
-	}
-
-.pphoto {
-	margin-top: 18px;
-	line-height: 20px;
-
-
-	}
-
-.cvbutton {
-	margin-top: 20px;
-	width: 100%; 
-	background-color: black; /* Green */
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	cursor: pointer;
+	
 }
+.direction {
+	background-color: red;
+
+	height: 500px;
+}
+
+#imgmapa {
+	position: relative;
+	width: 550px;	
+	height: 550px;
+
+}
+.icon1 {
+	position: absolute;
+	left: 280px;
+	top: 240px;
+	height: 50px;
+	width: 50px;
+	animation-name: iconmove;
+	animation-duration: .5s;
+}
+
+#icon {
+	height: 50px;
+	width: 50px;
+
+}
+
+ @keyframes iconmove {
+    0% {
+    	left: 280px;
+		top: -300px;
+    }
+    70% {
+    	left: 280px;
+		top: 240px;
+    }
+
+    85% {
+    	left: 280px;
+		top: 210px;
+    }
+	100% {
+    	left: 280px;
+		top: 240px;
+    }
+
+
+  }
 
 /* --sobre mi.HTML MOBILE CSS--*/
 
