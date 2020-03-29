@@ -142,23 +142,28 @@ i {
 
 #mapa {
 	border-radius: 10px;
-	height: 550px;
-	width: 550px;	
+	height: 400px;
+	width: 400px;	
 	}
 
 .direction {
+	text-align: center;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	line-height: 30px;
-	font-size: 13px;
-	height: 550px;
+	justify-content: space-between;
+	line-height: 20px;
+	font-size: 11px;
+	height: 400px;
 	}
+
+.text1 strong {
+	font-size: 12px;
+}
 
 #imgmapa {
 	position: relative;
-	width: 550px;	
-	height: 550px;
+	width: 400px;	
+	height: 400px;
 	animation-name: mapaeffect;
 	animation-duration: 1s;
 	}
@@ -183,8 +188,8 @@ i {
 
 .icon1 {
 	position: absolute;
-	left: 295px;
-	top: 240px;
+	left: 210px;
+	top: 165px;
 	height: 50px;
 	width: 50px;
 	animation-name: iconmove;
@@ -199,21 +204,21 @@ i {
 
  @keyframes iconmove {
     0% {
-    	left: 295px;
+    	left: 210px;
 		top: -300px;
     }
     70% {
-    	left: 295px;
-		top: 240px;
+    	left: 210px;
+		top: 165px;
     }
 
     85% {
-    	left: 295px;
-		top: 210px;
+    	left: 210px;
+		top: 165px;
     }
 	100% {
-    	left: 295px;
-		top: 240px;
+    	left: 210px;
+		top: 165px;
     }
 
 
