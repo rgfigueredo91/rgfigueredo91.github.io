@@ -141,14 +141,14 @@ i {
 
 
 #mapa {
-	display: block;
+	
 	height: 550px;
 	width: 550px;	
 	}
 
 .direction {
-	background-color: red;
-	height: 500px;
+	
+	height: 550px;
 	}
 
 #imgmapa {
