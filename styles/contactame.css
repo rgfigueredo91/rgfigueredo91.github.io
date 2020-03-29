@@ -28,7 +28,6 @@
 	}
 
 .imgbk {
-
 	content: "";
 	background-image: url(../img/barbacue.jpg);
 	background-size: cover;
@@ -39,8 +38,7 @@
 	right: 0;
 	bottom: 0;
     height: 100vh;
-    visibility: visible;
-	
+    visibility: visible;	
 	}
 
 .section {
@@ -51,19 +49,15 @@
 	}
 
 .nav {
-
 	background-color: white;
 	grid-area: n;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	text-align: center;
-	
 	}
 
-
 .navizq {
-	
 	position: absolute;
 	left: 75px;
 	top: 250px;
@@ -73,8 +67,6 @@
 	font-size: 13px;
 	list-style-type: none;
 	line-height: 30px;
-
-
 	}
 
 .item a{
@@ -83,9 +75,7 @@
 	}
 
 .item a:hover {
-	
 	text-decoration: underline;	
-	
 	}
 
 .logo img {
@@ -95,7 +85,6 @@
 	position: absolute;
 	left: 77px;
 	top: 50px;
-
 	}
 
 .social-iconli {
@@ -104,16 +93,13 @@
 	font-size: 16px;
 	color: black;
 	padding: 6px;
-
 	}
 
 .social-icons {
-
 	position: absolute;
 	bottom: 150px;
 	left: 60px;
 	color: black;
-
 	}
 
 .smalllogo img {
@@ -139,7 +125,6 @@ i {
 	align-items: center;
 	}
 
-
 #mapa {
 	border-radius: 10px;
 	height: 400px;
@@ -158,7 +143,7 @@ i {
 
 .text1 strong {
 	font-size: 12px;
-}
+	}
 
 #imgmapa {
 	position: relative;
@@ -167,11 +152,6 @@ i {
 	animation-name: mapaeffect;
 	animation-duration: 1s;
 	}
-
-.text1 {
-
-
-}
 
 
 	@keyframes mapaeffect {
@@ -199,9 +179,7 @@ i {
 #icon {
 	height: 50px;
 	width: 50px;
-
 	}
-
  @keyframes iconmove {
     0% {
     	left: 210px;
@@ -220,13 +198,9 @@ i {
     	left: 210px;
 		top: 165px;
     }
-
-
  }
 
 /* --contactame.HTML MOBILE CSS--*/
-
-
 
 @media only screen and (max-width: 600px) {
 
@@ -246,22 +220,6 @@ body {
 						 "m"								 
 	}
 
-.imgbk {
-
-	content: "";
-	background-image: url(../img/barbacue.jpg);
-	background-size: cover;
-	background-position: center center;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-    height: 100vh;
-    visibility: visible;
-    z-index: -1;
-	
-	}
-
 .nav {
 	display: none;
 	}
@@ -274,11 +232,9 @@ body {
 	background-color: white;
 	display: flex;
 	align-items: center;
-
 	}
 
 #logophone {
-
 	height: 60px;
 	width: 60px;
 	margin-left: 30px;
@@ -294,8 +250,6 @@ body {
 	text-decoration: none;
 	font-size: 10px;
 	letter-spacing: 1px;
-
-
 	}
 
 .burguer div{
@@ -349,44 +303,78 @@ body {
 	font-size: 20px;
 	}
 
-.mainabout {
+.maincontact {
+	top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	}
 
+.maincontact {
+	width: 100%;
 	margin-top: 10vh;
-	height: 1300px;
+	height: 100vh;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	flex-direction: column-reverse;
+	justify-content: space-around;
 	
 	}
 
-.imgparagraph {
-
-	text-align: center;
-	text-align: justify;
-	width: 300px;
-	font-size: 13px;
-	margin-right: 0px;
-	height: 500px;
-	
-	
-
+#imgmapa {
+	width: 350px;
+	height: 350px;
+	margin-top: 50px;
+	z-index: -1;
 	}
 
-.onlyp {
-	text-align: justify;
-	font-size: 13px;
-	width: 300px;
-	margin-left: 0px;
-	height: 500px;
-	line-height: 20px;
-	
+#mapa {
+	border-radius: 0px;
+	height: 350px;
+	width: 350px;	
 	}
 
-}
+.direction {
+	margin-top: 30px;
+	}
+
+.icon1 {
+	position: absolute;
+	left: 180px;
+	top: 133px;
+	height: 50px;
+	width: 50px;
+	animation-name: iconmoves;
+	animation-duration: .5s;
+	}
+
+#icon {
+	height: 50px;
+	width: 50px;
+	}
+
+ @keyframes iconmoves {
+    0% {
+    	left: 180px;
+		top: -300px;
+    }
+    70% {
+    	left: 180px;
+		top: 133px;
+    }
+
+    85% {
+    	left: 180px;
+		top: 133px;
+    }
+	100% {
+    	left: 180px;
+		top: 133px;
+    }
 
 
+ 	}
 
+	}
 
 
 

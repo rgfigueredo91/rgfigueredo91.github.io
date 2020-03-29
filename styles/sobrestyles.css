@@ -342,6 +342,7 @@ body {
 	}
 
 .onlyp {
+	margin-top: 15px;
 	text-align: justify;
 	font-size: 13px;
 	width: 300px;
