@@ -161,6 +161,7 @@ i {
 #photome {
 	width: 300px;
 	border-radius: 15px;
+	cursor: pointer;
 	}
 
 .pphoto {
@@ -173,7 +174,7 @@ i {
 .cvbutton {
 	margin-top: 20px;
 	width: 100%; 
-	background-color: black; /* Green */
+	background-color: black; 
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -183,6 +184,13 @@ i {
 	font-size: 16px;
 	cursor: pointer;
 }
+
+.cvbutton:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
 
 /* --sobre mi.HTML MOBILE CSS--*/
 
