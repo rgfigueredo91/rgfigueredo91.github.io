@@ -38,14 +38,15 @@
 }
 .main img{
 	cursor: pointer;
+	position: relative;
 }
 
 
 .card img{
 	width: 100%
 }
+
 .card img:hover {
-	
 	transform: scale(1.05);
 	transition: .1s ease-in;
 }
@@ -55,8 +56,9 @@
 	font-size: 13px;
 	text-align: center;
 }
-.info p {
-	text-align: justify-all;
+.justifytext {
+	text-align: justify;
+	margin-top: 15px;
 }
 
 .onlywhite p{
@@ -64,6 +66,10 @@
 	background-color: white;
 }
 
+.underline {
+	text-align: center;
+	text-decoration: underline;
+}
 
 .section {
 	background-color: blue;
