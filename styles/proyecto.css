@@ -24,17 +24,17 @@
 	}
 
 .main {
-	
+	height: 100vh;
+
 	margin-top: 100px;
-	margin-bottom: 50px;
-	margin-right: 100px;
+	margin-right: 270px;
 	margin-left: 100px;
 	grid-area: m;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-	scroll-behavior: smooth;
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	
 	grid-column-gap: 70px;
-	grid-row-gap: 50px;
+	grid-row-gap: 40px;
 	grid-template-rows: 
 	1fr
 	1fr
@@ -55,7 +55,7 @@
 }
 
 .info {
-	margin-top: 30px;
+	margin-top: 20px;
 	font-size: 13px;
 	text-align: center;
 }
@@ -63,7 +63,9 @@
 	text-align: justify-all;
 }
 
-
+.onlywhite {
+	height: 100px;
+}
 
 
 .section {
