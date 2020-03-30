@@ -32,13 +32,9 @@
 	grid-area: m;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-	
 	grid-column-gap: 70px;
 	grid-row-gap: 40px;
-	grid-template-rows: 
-	1fr
-	1fr
-	1fr;
+	
 }
 .main img{
 	cursor: pointer;
@@ -63,8 +59,9 @@
 	text-align: justify-all;
 }
 
-.onlywhite {
+.onlywhite p{
 	height: 100px;
+	background-color: white;
 }
 
 
