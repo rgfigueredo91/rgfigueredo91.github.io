@@ -24,7 +24,7 @@
 	}
 
 .supercontainer {
-	margin-right: 250px;
+	margin-right: 150px;
 	margin-left: 100px;
 	display: flex;
 	justify-content: space-around;
@@ -34,7 +34,8 @@
 	}
 
 .lado-derecho {
-	width: 30%;
+	
+	width: 70%;
 	margin-left: 150px;
 	text-align: justify;
 	font-size: 13px;	
@@ -49,7 +50,7 @@
 	}
 
 .principalimage {
-	height: 68%;
+	height: 100%;
 	width: 100%;
 	background-image: url(../img/barbacue/barbacue.jpg);
 	background-size: cover;
@@ -104,6 +105,7 @@
 	}
 
 .main {
+	
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -337,41 +339,43 @@ body {
 
 .lado-derecho {
 	margin-right: 0px;
-	height: 45vh;
-	width: 90%;
-	margin-left: 35px;
+	height: 50%;
+	width: 100%;
+	margin-left: 0;
 	text-align: justify;
 	font-size: 13px;
-	margin-bottom: 3vh;	
+	margin-bottom: 0;	
 	}
 
 .lado-derecho p {
-	width: 90%;
+	width: 100%;
 	margin-top: 10px;
 	margin-right: 0px;
+	text-align: justify;
 	}
 
 .lado-derecho h4 {
 	width: 90%;
 	text-align: left;
 	margin-right: 0px;
+	margin-top: 15px;
 	}
 
 .main {
-	margin-top: 150px;
+	margin-top: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	position: relative;
 	height: 45vh;
-	width: 90%;
+	width: 100%;
 	grid-area: m;
 	margin-right: 0px;
 	}
 
 .principalimage {
 	height: 100%;
-	width: 90%;
+	width: 100%;
 	background-image: url(../img/barbacue/barbacue.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -379,8 +383,8 @@ body {
 	background-position: center, center;
 	filter: brightness(1) grayscale(0);
 	margin-right: 50px;
-	margin-left: 35px;
-	margin-top: 5px;
+	margin-left:0;
+	margin-top: 15px;
 	}
 
 .principalimage:hover {
@@ -403,6 +407,7 @@ body {
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: space-around;
+	align-items: c
 	margin-top: 25vh;
 	margin-bottom: 100px;
 
@@ -410,9 +415,9 @@ body {
 
 .gallery {
 	margin-top: 20px;
-	height: 30%;
-	width: 90%;
-	margin-left: 35px;
+	height: 10%;
+	width: 100%;
+	margin-left: 0;
 	position: relative;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
