@@ -254,6 +254,7 @@ i {
 #imagen4 {
 	grid-row: 1/2;
 	grid-column: 4/5;
+
 }
 
 #imagen3 {
@@ -284,6 +285,11 @@ i {
 
 }
 
+.img1 img{
+	min-width: 25%;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 
 
@@ -477,6 +483,13 @@ body {
 	height: 100px;
 	width: 100%;
 }
+
+.img1 img{
+	min-width: 25%;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+
 }
 
 /* --barbacue and projects.HTML others CSS--*/
