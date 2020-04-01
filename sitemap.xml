@@ -9,27 +9,37 @@
 
 <url>
   <loc>https://rgf.uy/</loc>
-  <lastmod>2020-03-28T23:01:11+00:00</lastmod>
+  <lastmod>2020-04-01T17:50:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://rgf.uy/index.html</loc>
-  <lastmod>2020-03-28T23:01:11+00:00</lastmod>
+  <lastmod>2020-04-01T17:50:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rgf.uy/sobremi.html</loc>
-  <lastmod>2020-03-28T23:01:11+00:00</lastmod>
+  <lastmod>2020-04-01T17:50:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rgf.uy/proyectos.html</loc>
+  <lastmod>2020-04-01T17:50:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rgf.uy/contactame.html</loc>
-  <lastmod>2020-03-28T23:01:11+00:00</lastmod>
+  <lastmod>2020-04-01T17:50:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rgf.uy/CV.pdf</loc>
-  <lastmod>2020-03-28T23:01:11+00:00</lastmod>
+  <lastmod>2020-04-01T17:50:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rgf.uy/barbacue.html</loc>
+  <lastmod>2020-04-01T17:50:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
