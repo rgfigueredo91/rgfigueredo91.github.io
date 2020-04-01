@@ -135,6 +135,12 @@
 
 }
 
+.texto-abajo p {
+	margin-top: 15px;
+	
+
+}
+
 .section {
 	background-color: blue;
 	grid-area: s;
@@ -260,6 +266,23 @@ i {
 	grid-column: 4/5;
 }
 
+.blanquito {
+	height: 100px;
+	width: 100%;
+}
+
+.texto-abajo {
+	margin-top: 50px;
+	font-size: 13px;
+	
+	width: 100%;
+
+}
+.texto-abajo p{
+	margin-top: 15px;
+	
+
+}
 
 }
 
@@ -267,7 +290,7 @@ i {
 /* --INDEX.HTML MOBILE CSS--*/
 
 
-@media only screen and (max-width: 625px) {
+@media only screen and (max-width: 925px) {
 
 
 body {
@@ -408,12 +431,19 @@ body {
 
 	}
 .texto-abajo {
-	margin-top: 10px;
+	margin-top: 50px;
 	font-size: 13px;
 	
 	width: 100%;
 
 }
+
+.texto-abajo p{
+	margin-top: 15px;
+	
+
+}
+
 
 #imagen1 {
 	filter: brightness(1) grayscale(0);
@@ -443,6 +473,10 @@ body {
 	border: 1px solid #eee;
 }
 
+.blanquito {
+	height: 100px;
+	width: 100%;
+}
 }
 
 /* --barbacue and projects.HTML others CSS--*/
