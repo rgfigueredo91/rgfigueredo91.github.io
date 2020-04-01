@@ -148,9 +148,10 @@
 	}
 
 .navizq {
+	
 	position: fixed;
 	left: 75px;
-	top: 250px;
+	top: 210px;
 	}
 
 .item {
@@ -190,8 +191,8 @@
 
 .social-icons {
 	position: fixed;
-	bottom: 150px;
-	left: 60px;
+	bottom: 110px;
+	left: 65px;
 	color: black;
 	}
 
