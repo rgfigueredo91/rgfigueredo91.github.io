@@ -59,6 +59,11 @@
 
 }
 
+.blanquito {
+	height: 100px;
+	width: 100%;
+}
+
 #imagen1 {
 	grid-row: 1/4;
 	grid-column: 1/5;
@@ -215,7 +220,7 @@ i {
 
 
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1300px) {
 
 
 .gallery {
