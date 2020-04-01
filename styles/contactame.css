@@ -342,8 +342,18 @@ body {
 	}
 
 .direction {
-	margin-top: 30px;
+	margin-top: 120px;
 	justify-content: space-around;
+	line-height: 30px;
+	font-size: 13px;
+	}
+
+
+.direction strong{
+	margin-top: 10px;
+	font-size: 13px;
+	
+	
 	}
 
 .icon1 {

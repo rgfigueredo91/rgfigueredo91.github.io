@@ -1,0 +1,440 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: century-gothic, sans-serif;
+	}
+
+/* --barbacue and others projects.HTML DESKTOP CSS--*/
+
+.contenedor {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 230px auto;
+	grid-template-rows: 
+	100vh;
+	grid-template-areas: "n m"
+		}
+	
+.header {
+	grid-area: h;
+	display: none;
+	}
+
+.supercontainer {
+	margin-right: 250px;
+	margin-left: 100px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+	}
+
+.lado-derecho {
+	width: 30%;
+	margin-left: 150px;
+	text-align: justify;
+	font-size: 13px;	
+	}
+
+.lado-derecho p{
+	margin-top: 20px;
+	}
+
+.lado-derecho h4{
+	text-align: center;
+	}
+
+.principalimage {
+	height: 68%;
+	width: 100%;
+	background-image: url(../img/barbacue/barbacue.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	background-position: center, center;
+	filter: brightness(.9) grayscale(1);
+	}
+
+.principalimage:hover {
+	filter: brightness(1) grayscale(0);
+	transition: .2s ease-in;
+	} 
+
+.gallery{
+	margin-top: 15px;
+	height: 30%;
+	width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+	grid-gap: 2vh;
+	}
+
+#imagen2, #imagen3, #imagen4, #imagen5 {
+	border: 1px solid #eee;
+	cursor: pointer;
+	}
+
+#imagen2:hover{
+	cursor: pointer;
+	transition: .2s ease-in;
+	transform: scale(1.05);
+	}
+
+#imagen3:hover{
+	cursor: pointer;
+	transition: .2s ease-in;
+	transform: scale(1.05);
+	}
+
+#imagen4:hover{
+	cursor: pointer;
+	transition: .2s ease-in;
+	transform: scale(1.05);
+	}
+
+#imagen5:hover{
+	cursor: pointer;
+	transition: .2s ease-in;
+	transform: scale(1.05);
+	}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	grid-area: m;
+	}
+
+.img1 img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	}
+
+.info {
+	margin-top: 20px;
+	font-size: 13px;
+	text-align: center;
+	}
+
+.justifytext {
+	text-align: justify;
+	margin-top: 15px;
+	}
+
+.onlywhite p{
+	height: 100px;
+	background-color: white;
+	}
+
+.underline {
+	text-align: center;
+	text-decoration: underline;
+	}
+
+.section {
+	background-color: blue;
+	grid-area: s;
+	display: none;
+	min-width: 100px;
+	}
+
+.nav {	
+	background-color: white;
+	grid-area: n;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	}
+
+.navizq {
+	position: fixed;
+	left: 75px;
+	top: 250px;
+	}
+
+.item {
+	font-size: 13px;
+	list-style-type: none;
+	line-height: 30px;
+	}
+
+.item a{
+	text-decoration: none;
+	color: black;
+	}
+
+.item a:hover {	
+	text-decoration: underline;	
+	}
+
+.logo img {
+	height: 80px;
+	width: 80px;
+	position: fixed;
+	left: 77px;
+	top: 50px;
+	cursor: pointer;
+
+	}
+
+.social-iconli {
+	list-style-type: none;
+	display: inline-flex;
+	font-size: 16px;
+	color: black;
+	padding: 6px;
+	}
+
+.social-icons {
+	position: fixed;
+	bottom: 150px;
+	left: 60px;
+	color: black;
+	}
+
+.smalllogo img {
+	position: fixed;
+	bottom: 50px;
+	left: 102px;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	}
+
+i {
+
+	color: black;
+	}
+
+
+/* --INDEX.HTML MOBILE CSS--*/
+
+
+@media only screen and (max-width: 623px) {
+
+
+body {
+	overflow-x: hidden;
+	}
+
+.contenedor {
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 
+	30px
+	100%;	
+	grid-template-areas: "h"
+						 "m"								 
+	}
+
+.nav {
+	display: none;
+	}
+
+.header {
+	width: 100%;
+	position: fixed;
+	height: 10vh;
+	justify-content: space-between;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+	}
+
+#logophone {
+
+	height: 60px;
+	width: 60px;
+	margin-left: 30px;
+	margin-top: 7px;
+	}
+
+.nav-links li {
+	list-style: none;
+	}
+
+.nav-links a {
+
+	color: black;
+	text-decoration: none;
+	font-size: 10px;
+	letter-spacing: 1px;
+
+
+	}
+
+.burguer div{
+	width: 30px;
+	height: 3px;
+	color: black;
+	background-color: black;
+	margin: 5px;
+	}
+
+.nav-links {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	right: 0;
+	height: 90vh;
+	top: 10vh;
+	width: 50%;
+	background-color: white;
+	align-items: center;
+	justify-content: space-around;
+	line-height: 3vh;
+	transform: translateX(100%);
+	transition: transform 0.5s ease-in;
+	}
+
+.burguer {
+	cursor: pointer;
+	}
+
+.nav-active {
+	transform: translateX(0%);
+	}
+
+@keyframes navLinkFade {
+	from {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+	}
+
+#instagramfa {
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	font-size: 16px;
+	}
+
+#facebookfa {
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	font-size: 16px;
+	margin-bottom: 50px;
+	}
+
+.lado-derecho {
+	margin-right: 0px;
+	height: 45vh;
+	width: 90%;
+	margin-left: 35px;
+	text-align: justify;
+	font-size: 13px;
+	margin-bottom: 3vh;	
+	}
+
+.lado-derecho p {
+	width: 90%;
+	margin-top: 10px;
+	margin-right: 0px;
+	}
+
+.lado-derecho h4 {
+	width: 90%;
+	text-align: left;
+	margin-right: 0px;
+	}
+
+.main {
+	margin-top: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	position: relative;
+	height: 45vh;
+	width: 90%;
+	grid-area: m;
+	margin-right: 0px;
+	}
+
+.principalimage {
+	height: 100%;
+	width: 90%;
+	background-image: url(../img/barbacue/barbacue.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	backface-visibility: hidden;
+	background-position: center, center;
+	filter: brightness(1) grayscale(0);
+	margin-right: 50px;
+	margin-left: 35px;
+	margin-top: 5px;
+	}
+
+.principalimage:hover {
+	filter: brightness(1) grayscale(0);
+	transition: none;
+
+	}
+
+.img1 img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	}
+
+.supercontainer {
+	height: 90vh;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+	margin-top: 25vh;
+	margin-bottom: 100px;
+
+	}
+
+.gallery {
+	margin-top: 20px;
+	height: 30%;
+	width: 90%;
+	margin-left: 35px;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+	grid-gap: 2vh;
+	}
+
+#imagen2, #imagen3, #imagen4, #imagen5 {
+	border: 1px solid #eee;
+	cursor: pointer;
+	
+	}
+
+#imagen2:hover, #imagen3:hover, #imagen4:hover, #imagen5:hover {
+	
+	cursor: none;
+	transition: none;
+	transform: none;
+	}
+
+}
+
+/* --barbacue and projects.HTML others CSS--*/
+
+
+
