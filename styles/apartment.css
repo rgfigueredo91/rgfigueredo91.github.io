@@ -84,14 +84,14 @@
 	grid-row: 4/5;
 	grid-column: 3/4;
 	border: 1px solid #eee;
-	
+	filter: brightness(1);
 	
 }
 #imagen5 {
 	grid-row: 4/5;
 	grid-column: 4/5;
-	border: 1px solid #b6b6b6;
-	filter: brightness(.85);
+	border: 1px solid #eee;
+	filter: brightness(1);
 	}
 
 #imagen1:hover {
@@ -111,18 +111,26 @@
 
 
 #imagen5:hover {
-	filter: brightness(1) grayscale(0);
+	filter: brightness(.6) grayscale(0);
+	transition: .2s ease-in;
+	}
+	
+#imagen3:hover {
+	filter: brightness(.6) grayscale(0);
 	transition: .2s ease-in;
 	}
 
 
 
-
+.texto-abajo h4{
+	margin-top: 15px;
+	}
 
 .texto-abajo {
-	margin-top: 50px;
+	margin-top: 15px;
 	font-size: 13px;
 	width: 100%;
+
 	}
 
 .texto-abajo p {
@@ -248,7 +256,7 @@ i {
 	}
 
 .texto-abajo {
-	margin-top: 50px;
+	margin-top: 15px;
 	font-size: 13px;
 	width: 100%;
 	}
