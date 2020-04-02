@@ -84,12 +84,14 @@
 	grid-row: 4/5;
 	grid-column: 3/4;
 	border: 1px solid #eee;
-	}
-
+	
+	
+}
 #imagen5 {
 	grid-row: 4/5;
 	grid-column: 4/5;
-	border: 1px solid #eee;
+	border: 1px solid #b6b6b6;
+	filter: brightness(.85);
 	}
 
 #imagen1:hover {
@@ -106,6 +108,16 @@
 	filter: brightness(1) grayscale(0);
 	transition: .3s ease-in;
 	}
+
+
+#imagen5:hover {
+	filter: brightness(1) grayscale(0);
+	transition: .2s ease-in;
+	}
+
+
+
+
 
 .texto-abajo {
 	margin-top: 50px;
