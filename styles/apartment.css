@@ -16,7 +16,7 @@
 	grid-template-rows: 
 	100%;
 	grid-template-areas: "n m"
-		}
+	}
 	
 .header {
 	grid-area: h;
@@ -68,12 +68,16 @@
 	grid-row: 4/5;
 	grid-column: 1/2;
 	border: 1px solid #eee;
+	filter: brightness(.9) grayscale(1);
+	cursor: pointer;
 	}
 
 #imagen4 {
 	grid-row: 4/5;
 	grid-column: 2/3;
 	border: 1px solid #eee;
+	filter: brightness(.9) grayscale(1);
+	cursor: pointer;
 	}
 
 #imagen3 {
@@ -89,6 +93,16 @@
 	}
 
 #imagen1:hover {
+	filter: brightness(1) grayscale(0);
+	transition: .3s ease-in;
+	}
+
+#imagen2:hover {
+	filter: brightness(1) grayscale(0);
+	transition: .3s ease-in;
+	}
+
+#imagen4:hover {
 	filter: brightness(1) grayscale(0);
 	transition: .3s ease-in;
 	}
@@ -155,7 +169,6 @@
 	font-size: 16px;
 	color: black;
 	padding: 6px;
-
 	}
 
 .social-icons {
@@ -182,17 +195,14 @@ i {
 /* --barbacue.HTML oher device CSS--*/
 @media only screen and (min-width: 1300px) {
 
-
 .gallery {
 	position: relative;
 	height: 70vh;
 	width: 100%;
-	
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 	grid-gap: 1vh; 
-
 	}
 
 #imagen1 {
@@ -208,7 +218,6 @@ i {
 #imagen4 {
 	grid-row: 1/2;
 	grid-column: 4/5;
-
 	}
 
 #imagen3 {
@@ -229,15 +238,11 @@ i {
 .texto-abajo {
 	margin-top: 50px;
 	font-size: 13px;
-	
 	width: 100%;
-
 	}
 
 .texto-abajo p{
 	margin-top: 15px;
-	
-
 	}
 
 .img1 img{
@@ -247,12 +252,9 @@ i {
 	object-fit: cover;
 	}
 
-
 }
 
-
 /* --barbacue.HTML MOBILE CSS--*/
-
 
 @media only screen and (max-width: 925px) {
 
@@ -301,13 +303,10 @@ body {
 	}
 
 .nav-links a {
-
 	color: black;
 	text-decoration: none;
 	font-size: 10px;
 	letter-spacing: 1px;
-
-
 	}
 
 .burguer div{
@@ -370,12 +369,10 @@ body {
 	}
 
 .supercontainer{
-	margin-top: 100px;
-	
+	margin-top: 100px;	
 	width: 100%;
 	height: 100%;
 	margin: 0;
-	
 	}
 
 .main {
@@ -386,35 +383,27 @@ body {
 .gallery {
 	position: relative;
 	height: 100vh;
-	width: 100%;
-	
+	width: 100%;	
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(7, 1fr);
 	grid-gap: 1vh; 
-
 	}
 
 .texto-abajo {
 	margin-top: 20px;
 	font-size: 13px;
-	
 	width: 100%;
-
 	}
 
 .texto-abajo p{
 	margin-top: 15px;
-	
-
 	}
 
-#imagen1 {
-	
+#imagen1 {	
 	grid-column: 1/5;
 	grid-row: 1/4;
 	filter: brightness(1) grayscale(0);
-	
 	}
 
 #imagen2 {
@@ -455,9 +444,7 @@ body {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-
 	}
-
 
 }
 
