@@ -27,46 +27,38 @@
 	grid-area: m;
 	}
 
-.imgbk {
-	background-image: url(../img/barbacue.jpg);
+.fullBackground {
 	background-size: cover;
 	background-repeat: no-repeat;
 	backface-visibility: hidden;
 	background-position: center, center;
-	-webkit-animation-name: slide;
-	-webkit-animation-duration: 40s;
-	-webkit-animation-iteration-count: infinite;
 	left: 230px;
 	top: 0;
 	right: 0;
 	bottom: 30px;
     height: 100vh; 
     z-index: -1; 
-	}
+}
 
-@-webkit-keyframes slide {
-	25% {
-		background-image: url(../img/barbacue.jpg);
-		}
+.caption {
+  font-size: 30pt;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-	25.00001% {background-image: url(../img/lab.jpg);
-		}
-
-	70% {background-image: url(../img/lab.jpg);
-		}
-
-	70.00001% {
-		background-image: url(../img/kitchen.jpg);
-		}
-
-	95% {
-		background-image: url(../img/kitchen.jpg);
-		}
-
-	95.00001% {
-		background-image: url(../img/barbacue.jpg);
-		}
-	}
+.caption:after {
+  content:"\A";
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background: #00bbeb;
+  display: inline-block;
+  margin: 0 0 -2px;
+}
 
 .section {
 	background-color: blue;
@@ -122,7 +114,18 @@
 	font-size: 16px;
 	color: black;
 	padding: 6px;
+	
 
+	}
+
+.social-iconli:hover {
+	list-style-type: none;
+	display: inline-flex;
+	font-size: 16px;
+	color: black;
+	padding: 6px;
+	transform: scale(1.4);
+	transition: .2s ease-in;
 	}
 
 .social-icons {
@@ -131,6 +134,8 @@
 	left: 65px;
 	color: black;
 	}
+
+
 
 .smalllogo img {
 	position: absolute;
@@ -141,10 +146,18 @@
 	cursor: pointer;
 	}
 
+
 i {
 
-	color: black;
+	color: #212121;
 	}
+
+	i:hover {
+
+	color: #000;
+	}
+
+
 
 
 
@@ -171,10 +184,9 @@ body {
 						 "m"								 
 	}
 
-.imgbk {
+.fullBackground {
 
 	content: "";
-	background-image: url(../img/barbacue.jpg);
 	background-size: cover;
 	background-position: center center;
 	left: 0;

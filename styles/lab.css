@@ -237,6 +237,16 @@
 	padding: 6px;
 	}
 
+.social-iconli:hover {
+	list-style-type: none;
+	display: inline-flex;
+	font-size: 16px;
+	color: black;
+	padding: 6px;
+	transform: scale(1.4);
+	transition: .2s ease-in;
+	}
+	
 .social-icons {
 	position: fixed;
 	bottom: 110px;
@@ -255,8 +265,14 @@
 
 i {
 
-	color: black;
+	color: #212121;
 	}
+
+	i:hover {
+
+	color: #000;
+	}
+
 
 /* --barbacue.HTML oher device CSS--*/
 

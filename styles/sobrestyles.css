@@ -97,6 +97,16 @@
 
 	}
 
+.social-iconli:hover {
+	list-style-type: none;
+	display: inline-flex;
+	font-size: 16px;
+	color: black;
+	padding: 6px;
+	transform: scale(1.4);
+	transition: .2s ease-in;
+	}
+
 .social-icons {
 
 	position: absolute;
@@ -117,7 +127,12 @@
 
 i {
 
-	color: black;
+	color: #212121;
+	}
+
+	i:hover {
+
+	color: #000;
 	}
 
 .mainabout {
@@ -150,7 +165,7 @@ i {
 #photome {
 	width: 300px;
 	border-radius: 15px;
-	cursor: pointer;
+	
 	}
 
 .pphoto {
