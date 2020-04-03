@@ -48,6 +48,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 0; 
 }
 
 .caption:after {
@@ -58,6 +59,7 @@
   background: #00bbeb;
   display: inline-block;
   margin: 0 0 -2px;
+  z-index: 0; 
 }
 
 .section {
@@ -184,6 +186,8 @@ body {
 						 "m"								 
 	}
 
+
+
 .fullBackground {
 
 	content: "";
@@ -199,6 +203,32 @@ body {
 	
 	}
 
+.caption {
+  font-size: 30pt;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0; 
+}
+
+.caption:after {
+  content:"\A";
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background: #00bbeb;
+  display: inline-block;
+  margin: 0 0 -2px;
+  z-index: 0; 
+}
+
+
+
+
+
 .nav {
 	display: none;
 	}
@@ -211,6 +241,7 @@ body {
 	background-color: white;
 	display: flex;
 	align-items: center;
+	z-index: 1;
 	}
 
 #logophone {
