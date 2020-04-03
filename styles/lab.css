@@ -84,7 +84,8 @@
 	grid-row: 4/5;
 	grid-column: 3/4;
 	border: 1px solid #eee;
-	filter: brightness(1);
+	filter: brightness(1), grayscale(1);
+	cursor: pointer;
 	
 }
 
@@ -151,6 +152,7 @@
 	grid-column: 4/5;
 	border: 1px solid #eee;
 	filter: brightness(1);
+	filter: grayscale(1);
 	}
 
 #imagen1:hover {
@@ -167,6 +169,24 @@
 	filter: brightness(1) grayscale(0);
 	transition: .1s ease-in;
 	}
+
+#imagen3:hover {
+	filter: brightness(1) grayscale(0);
+	transition: .1s ease-in;
+	}
+
+#imagen5:hover {
+	
+	filter: grayscale(0);
+	}
+
+#imagen3 {
+	filter: brightness(1) grayscale(1);
+	
+	}
+
+
+
 
 .texto-abajo h4{
 	margin-top: 15px;
@@ -302,11 +322,13 @@ i {
 #imagen4 {
 	grid-row: 1/2;
 	grid-column: 4/5;
+	filter: brightness(1), grayscale(1);
 	}
 
 #imagen3 {
 	grid-row: 2/3;
 	grid-column: 3/4;
+	filter: brightness(1), grayscale(1);
 	}
 
 #imagen5 {
