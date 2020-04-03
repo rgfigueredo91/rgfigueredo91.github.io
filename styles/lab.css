@@ -175,7 +175,8 @@
 .texto-abajo {
 	margin-top: 15px;
 	font-size: 13px;
-	width: 100%;
+	width: 50%;
+	text-align: justify;
 
 	}
 
@@ -321,7 +322,8 @@ i {
 .texto-abajo {
 	margin-top: 15px;
 	font-size: 13px;
-	width: 100%;
+	width: 50%;
+	text-align: justify;
 	}
 
 .texto-abajo p{
