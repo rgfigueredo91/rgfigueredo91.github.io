@@ -97,6 +97,16 @@
 
 	}
 
+
+.imago {
+	color: black;
+	font-weight: 1000;
+	text-decoration: none;
+	text-decoration-style: none;
+}
+
+
+
 .social-iconli:hover {
 	list-style-type: none;
 	display: inline-flex;
