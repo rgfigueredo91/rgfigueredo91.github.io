@@ -25,9 +25,6 @@
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
  		<script src="src/fullclip.js"></script>
 
- 		
- 		
-
 	</head>
 
 	<body>
@@ -67,8 +64,6 @@
 						<li class="item"><a href="proyectos.html">proyectos</a></li>
 						<li class="item"><a href="https://imagouy.com" target="_blank">imago</a></li>
 						<li class="item"><a href="contactame.html">contáctame</a></li>
-						<!--<li class="item"><a href="#es" data-reload>Español</a></li>
-						<li class="item"><a href="#eng" data-reload>English</a></li>-->
 					</ul>
 				</nav>
 
@@ -103,48 +98,13 @@
 
 		 <script>
     $('.fullBackground').fullClip({
-      images: ['img/lab.jpg', 'img/barbacue.jpg', 'img/kitchen.jpg', 'img/finalproject2.jpg'],
+      images: ['img/lab.jpg', 'img/barbacue.jpg', 'img/kitchen.jpg', 'img/building.jpg'],
       transitionTime: 3000,
       wait: 14000
     });
     </script>
 
-  <!--multilanguage-->
 
-  <script>
-
-  	// define language reload anchors
-
-  	var dataReload = document.querySelectorAll("[data-reload]");
-
-  	// language translation
-
-  	var language = {
-  		es: {
-  			welcome: "inicio"
-
-  		},
-
-  		eng: {
-  			welcome: "home"
-  		}
-  	};
-
-  	// define language via window hash
-
-  	if (window.location.hash) {
-  		if (window.location.hash === "#eng") {
-  			hi.textContent = language.eng.welcome;
-  		}
-  	}
-
-  	// define language reload onclick illiteration
-  	for (i = 0; i <= dataReload.lenght; i++) {
-  		dataReload[i].onclick = function() {
-  			location.reload(true);
-  		};
-  	}
-</script>
 
 
 
