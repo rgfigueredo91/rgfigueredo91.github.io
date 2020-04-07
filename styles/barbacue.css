@@ -151,10 +151,17 @@
 
 /* fin imagen efecto letras*/
 
+
+.texto-abajo h4{
+	margin-top: 15px;
+	}
+
 .texto-abajo {
 	margin-top: 15px;
 	font-size: 13px;
-	width: 100%;
+	width: 50%;
+	text-align: justify;
+
 	}
 
 .texto-abajo p {
@@ -298,18 +305,21 @@ i {
 	width: 100%;
 	}
 
+
+.texto-abajo h4{
+	margin-top: 15px;
+	}
+
 .texto-abajo {
 	margin-top: 15px;
 	font-size: 13px;
-	
-	width: 100%;
+	width: 50%;
+	text-align: justify;
 
 	}
 
-.texto-abajo p{
+.texto-abajo p {
 	margin-top: 15px;
-	
-
 	}
 
 .img1 img{
@@ -467,6 +477,7 @@ body {
 .texto-abajo {
 	margin-top: 20px;
 	font-size: 13px;
+	text-align: justify;
 	
 	width: 100%;
 

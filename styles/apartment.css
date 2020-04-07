@@ -168,6 +168,7 @@
 	transition: .1s ease-in;
 	}
 
+
 .texto-abajo h4{
 	margin-top: 15px;
 	}
@@ -175,7 +176,8 @@
 .texto-abajo {
 	margin-top: 15px;
 	font-size: 13px;
-	width: 100%;
+	width: 50%;
+	text-align: justify;
 
 	}
 
@@ -317,13 +319,20 @@ i {
 	width: 100%;
 	}
 
+
+.texto-abajo h4{
+	margin-top: 15px;
+	}
+
 .texto-abajo {
 	margin-top: 15px;
 	font-size: 13px;
-	width: 100%;
+	width: 50%;
+	text-align: justify;
+
 	}
 
-.texto-abajo p{
+.texto-abajo p {
 	margin-top: 15px;
 	}
 
