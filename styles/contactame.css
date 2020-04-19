@@ -269,7 +269,6 @@ button {
 	transition: .3s ease-in;
 	}
 
-
 button:hover {
 	border:1px solid black;
 	transition: .3s ease-in;
@@ -388,7 +387,7 @@ body {
 	height: 30px;
 	font-size: 16px;
 	margin-bottom: 50px;
-}
+	}
 
 .maincontact {
 	top: 0;
@@ -403,8 +402,7 @@ body {
 	height: 100vh;
 	display: flex;
 	flex-direction: column-reverse;
-	justify-content: space-around;
-	
+	justify-content: center;
 	}
 
 #imgmapa {
@@ -427,12 +425,9 @@ body {
 	font-size: 13px;
 	}
 
-
 .direction strong{
 	margin-top: 10px;
-	font-size: 13px;
-	
-	
+	font-size: 13px
 	}
 
 .icon1 {
@@ -450,7 +445,7 @@ body {
 	width: 50px;
 	}
 
- @keyframes iconmoves {
+@keyframes iconmoves {
     0% {
     	left: 180px;
 		top: -300px;
@@ -469,23 +464,22 @@ body {
 		top: 133px;
     }
 
-
  	}
 
 .label-input {
 	text-align: center;
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	justify-content: center;
 	line-height: 20px;
 	line-height: 30px;
 	margin-bottom: 13px;
-	width: 220px;
+	width: 100%;
 	}
 
-
 .contact-form{
-	
+	margin-top: 600px;	
+	width: 80%;
 	height: 400px;
 	}
 
@@ -524,8 +518,7 @@ button {
 	transition: none;
 	}
 
-
-button:hover {
+button:hover{
 	border:1px solid black;
 	transition: none;
 	background-color: black;
@@ -533,9 +526,7 @@ button:hover {
 	}
 
 
-
-
-	}
+}
 
 
 
