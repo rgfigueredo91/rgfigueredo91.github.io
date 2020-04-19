@@ -224,7 +224,6 @@ i {
 	flex-direction: column;
 	justify-content: space-between;
 	line-height: 20px;
-	font-size: 13px;
 	line-height: 30px;
 	margin-bottom: 13px;
 	width: 220px;
@@ -238,22 +237,25 @@ i {
 .name {
 	height: 30px;
 	text-align: center;
+	font-size: 12px;
 	}
 
 .email{
 	height: 30px;
 	text-align: center;
+	font-size: 12px;
 	}
 
 .subject {
 	height: 30px;
 	text-align: center;
+	font-size: 12px;
 	}
 
 textarea {
 	height: 140px;
 	text-align: center;
-	font-size: 13px;
+	font-size: 12px;
 	}
 
 button {
@@ -263,7 +265,7 @@ button {
 	background-color: black;
 	color: white;
 	width: 100%;
-	font-size: 13px;
+	font-size: 12px;
 	transition: .3s ease-in;
 	}
 
