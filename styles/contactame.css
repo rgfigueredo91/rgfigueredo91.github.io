@@ -399,7 +399,7 @@ body {
 
 .maincontact {
 	width: 100%;
-	margin-top: 50vh;
+	margin-top: 10vh;
 	height: 100vh;
 	display: flex;
 	flex-direction: column-reverse;
@@ -485,7 +485,7 @@ body {
 
 
 .contact-form{
-	margin-top: 550px;
+	
 	height: 400px;
 	}
 
