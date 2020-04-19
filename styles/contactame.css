@@ -476,7 +476,7 @@ body {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	line-height: 20px;
 	line-height: 30px;
 	margin-bottom: 13px;
