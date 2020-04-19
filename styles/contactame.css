@@ -154,12 +154,12 @@ i {
 	flex-direction: column;
 	justify-content: space-between;
 	line-height: 20px;
-	font-size: 11px;
+	font-size: 13px;
 	height: 400px;
 	}
 
 .text1 strong {
-	font-size: 12px;
+	font-size: 14px;
 	}
 
 #imgmapa {
@@ -197,6 +197,7 @@ i {
 	height: 50px;
 	width: 50px;
 	}
+
  @keyframes iconmove {
     0% {
     	left: 210px;
@@ -216,6 +217,65 @@ i {
 		top: 165px;
     }
  }
+
+.label-input {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	line-height: 20px;
+	font-size: 13px;
+	line-height: 30px;
+	margin-bottom: 13px;
+	width: 220px;
+	}
+
+
+.contact-form{
+	height: 400px;
+	}
+
+.name {
+	height: 30px;
+	text-align: center;
+	}
+
+.email{
+	height: 30px;
+	text-align: center;
+	}
+
+.subject {
+	height: 30px;
+	text-align: center;
+	}
+
+textarea {
+	height: 140px;
+	text-align: center;
+	font-size: 13px;
+	}
+
+button {
+	height: 30px;
+	cursor: pointer;
+	border: 0;
+	background-color: black;
+	color: white;
+	width: 100%;
+	font-size: 13px;
+	transition: .3s ease-in;
+	}
+
+
+button:hover {
+	border:1px solid black;
+	transition: .3s ease-in;
+	background-color: white;
+		color: black;
+	}
+
+
 
 /* --contactame.HTML MOBILE CSS--*/
 
