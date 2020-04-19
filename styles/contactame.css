@@ -472,6 +472,69 @@ body {
 
  	}
 
+.label-input {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	line-height: 20px;
+	line-height: 30px;
+	margin-bottom: 13px;
+	width: 220px;
+	}
+
+
+.contact-form{
+	margin-top: 550px;
+	height: 400px;
+	}
+
+.name {
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+	}
+
+.email{
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+	}
+
+.subject {
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+	}
+
+textarea {
+	height: 140px;
+	text-align: center;
+	font-size: 12px;
+	}
+
+button {
+	height: 30px;
+	cursor: pointer;
+	border: 0;
+	background-color: black;
+	color: white;
+	width: 100%;
+	font-size: 12px;
+	transition: none;
+	}
+
+
+button:hover {
+	border:1px solid black;
+	transition: none;
+	background-color: black;
+	color: white;
+	}
+
+
+
+
 	}
 
 
