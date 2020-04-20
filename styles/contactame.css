@@ -475,7 +475,7 @@ body {
 	margin-top: 70px;	
 	width: 80%;
 	height: 400px;
-	margin-bottom: 50px;
+	bottom: 40px;
 	}
 
 .name {
@@ -504,7 +504,7 @@ textarea {
 	}
 
 button {
-	margin-bottom: 40px;
+
 	height: 30px;
 	cursor: pointer;
 	border: 0;
