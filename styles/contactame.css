@@ -25,6 +25,9 @@
 
 .main {
 	grid-area: m;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	}
 
 .imgbk {
@@ -132,15 +135,6 @@ i {
 	}
 
 
-.maincontact {
-	margin-top: 100px;
-	margin-right: 100px;
-	margin-left: 50px;
-	margin-bottom: 100px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	}
 
 #mapa {
 	border-radius: 10px;
@@ -301,7 +295,12 @@ body {
 .nav {
 	display: none;
 	}
-
+.main {
+	grid-area: m;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+}
 .header {
 	width: 100%;
 	position: fixed;
@@ -389,21 +388,6 @@ body {
 	margin-bottom: 50px;
 	}
 
-.maincontact {
-	top: 0;
-	margin-right: 0;
-	margin-left: 0;
-	margin-bottom: 0;
-	}
-
-.maincontact {
-	width: 100%;
-	margin-top: 10vh;
-	height: 100vh;
-	display: flex;
-	flex-direction: column-reverse;
-	justify-content: space-around;
-	}
 
 #imgmapa {
 	width: 350px;
@@ -420,7 +404,7 @@ body {
 
 .direction {
 	height: 200px;
-	margin-top: 94vh;
+	margin-top: 15vh;
 	justify-content: space-around;
 	line-height: 30px;
 	font-size: 13px;
