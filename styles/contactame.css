@@ -396,6 +396,7 @@ body {
 }
 
 #imgmapa {
+	display: none;
 	width: 250px;
 	height: 250px;
 	margin-top: 70px;
@@ -403,6 +404,7 @@ body {
 	}
 
 #mapa {
+	display: none;
 	border-radius: 0px;
 	height: 250px;
 	width: 250px;	

@@ -197,12 +197,14 @@ i {
 	display: inline-block;
 	font-size: 16px;
 	cursor: pointer;
+	transition: .3s ease-in;
 	}
 
 .cvbutton:hover {
 	background-color: white;
 	color: black;
 	border: 1px solid black;
+	transition: .3s ease-in;
 	}
 
 
