@@ -301,6 +301,7 @@ body {
 	flex-direction: column-reverse;
 	justify-content: space-around;
 }
+
 .header {
 	width: 100%;
 	position: fixed;
@@ -309,9 +310,11 @@ body {
 	background-color: white;
 	display: flex;
 	align-items: center;
+
 	}
 
 #logophone {
+
 	height: 60px;
 	width: 60px;
 	margin-left: 30px;
@@ -320,6 +323,7 @@ body {
 
 .nav-links li {
 	list-style: none;
+
 	}
 
 .nav-links a {
@@ -327,6 +331,8 @@ body {
 	text-decoration: none;
 	font-size: 10px;
 	letter-spacing: 1px;
+
+
 	}
 
 .burguer div{
@@ -378,6 +384,7 @@ body {
 	width: 30px;
 	height: 30px;
 	font-size: 16px;
+
 	}
 
 #facebookfa {
@@ -386,11 +393,22 @@ body {
 	height: 30px;
 	font-size: 16px;
 	margin-bottom: 50px;
+}
+
+.mainabout {
+
+	margin-top: 10vh;
+	height: 1300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
 	}
 
 
 #imgmapa {
-	width: 350px;
+	width: 80%;
 	height: 350px;
 	margin-top: 70px;
 	z-index: -1;
@@ -399,7 +417,7 @@ body {
 #mapa {
 	border-radius: 0px;
 	height: 350px;
-	width: 350px;	
+	width: 100%;	
 	}
 
 .direction {
@@ -417,7 +435,7 @@ body {
 
 .icon1 {
 	position: absolute;
-	left: 180px;
+	left: 170px;
 	top: 133px;
 	height: 50px;
 	width: 50px;
@@ -472,6 +490,7 @@ body {
 	height: 30px;
 	text-align: center;
 	font-size: 12px;
+
 	}
 
 .email{
