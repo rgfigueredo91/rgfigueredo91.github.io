@@ -300,6 +300,7 @@ body {
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: space-around;
+	margin-bottom: 40px;
 }
 
 .header {
