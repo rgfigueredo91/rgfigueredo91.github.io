@@ -402,7 +402,7 @@ body {
 	height: 100vh;
 	display: flex;
 	flex-direction: column-reverse;
-	justify-content: center;
+	justify-content: space-around;
 	}
 
 #imgmapa {
