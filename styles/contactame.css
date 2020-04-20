@@ -408,7 +408,7 @@ body {
 #imgmapa {
 	width: 350px;
 	height: 350px;
-	margin-top: 50px;
+	margin-top: 70px;
 	z-index: -1;
 	}
 
@@ -419,7 +419,8 @@ body {
 	}
 
 .direction {
-	margin-top: 50px;
+	height: 200px;
+	margin-top: 80vh;
 	justify-content: space-around;
 	line-height: 30px;
 	font-size: 13px;
@@ -478,7 +479,7 @@ body {
 	}
 
 .contact-form{
-	margin-top: 580px;	
+	margin-top: 70px;	
 	width: 80%;
 	height: 400px;
 	}
