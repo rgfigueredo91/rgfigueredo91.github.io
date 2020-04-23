@@ -8,6 +8,14 @@
 
 /* --INDEX.HTML DESKTOP CSS--*/
 
+.issu {
+	color: black;
+	text-decoration: none;
+	font-weight: 1000;
+
+}
+
+
 .contenedor {
 	height: 100%;
 	width: 100%;
