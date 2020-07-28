@@ -1,147 +1,17 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-
-* {
-	margin: 0;
-	padding: 0;
-	font-family: century-gothic, sans-serif;
-	}
 
 /* --contactame.HTML DESKTOP CSS--*/
-
-.contenedor {
-	height: 100vh;
-	width: 100%;
-	display: grid;
-	grid-template-columns: 230px auto;
-	grid-template-rows: 
-	100vh;
-	grid-template-areas: "n m"
-		}
-	
-.header {
-	grid-area: h;
-	display: none;
-	}
 
 .main {
 	grid-area: m;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	}
-
-.imgbk {
-	content: "";
-	background-image: url(../img/barbacue.jpg);
-	background-size: cover;
-	background-position: center center;
-	position: absolute;
-	left: 230px;
-	top: 0;
-	right: 0;
-	bottom: 0;
-    height: 100vh;
-    visibility: visible;	
-	}
-
-.section {
-	background-color: blue;
-	grid-area: s;
-	display: none;
-	min-width: 100px;
-	}
-
-.nav {
-	background-color: white;
-	grid-area: n;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	text-align: center;
-	}
-
-.navizq {
-	position: absolute;
-	left: 75px;
-	top: 210px;
-	}
-
-.item {
-	font-size: 13px;
-	list-style-type: none;
-	line-height: 30px;
-	}
-
-.item a{
-	text-decoration: none;
-	color: black;
-	}
-
-.item a:hover {
-	text-decoration: underline;	
-	}
-
-.logo img {
-	height: 80px;
-	width: 80px;
-	cursor: pointer;
-	position: absolute;
-	left: 77px;
-	top: 50px;
-	}
-
-.social-iconli {
-	list-style-type: none;
-	display: inline-flex;
-	font-size: 16px;
-	color: black;
-	padding: 6px;
-	}
-	
-.social-iconli:hover {
-	list-style-type: none;
-	display: inline-flex;
-	font-size: 16px;
-	color: black;
-	padding: 6px;
-	transform: scale(1.4);
-	transition: .2s ease-in;
-	}
-
-.social-icons {
-	position: absolute;
-	bottom: 110px;
-	left: 65px;
-	color: black;
-	}
-
-.smalllogo img {
-	cursor: pointer;
-	position: absolute;
-	bottom: 50px;
-	left: 102px;
-	width: 35px;
-	height: 35px;
-	}
-
-i {
-
-	color: #212121;
-	}
-
-	i:hover {
-
-	color: #000;
-	}
-
-
-
+}
 #mapa {
 	border-radius: 10px;
 	height: 400px;
 	width: 400px;	
-	}
-
+}
 .direction {
 	text-align: center;
 	display: flex;
@@ -150,33 +20,28 @@ i {
 	line-height: 20px;
 	font-size: 13px;
 	height: 400px;
-	}
-
+}
 .text1 strong {
 	font-size: 14px;
-	}
-
+}
 #imgmapa {
 	position: relative;
 	width: 400px;	
 	height: 400px;
 	animation-name: mapaeffect;
 	animation-duration: 1s;
+}
+@keyframes mapaeffect {
+	0% {
+			
+		opacity: 0;
 	}
 
-
-	@keyframes mapaeffect {
-		0% {
-			
-			opacity: 0;
-		}
-
-		100% {
-			
-			opacity: 1
-		}
+	100% {
+		
+		opacity: 1
 	}
-
+}
 .icon1 {
 	position: absolute;
 	left: 210px;
@@ -185,13 +50,11 @@ i {
 	width: 50px;
 	animation-name: iconmove;
 	animation-duration: .5s;
-	}
-
+}
 #icon {
 	height: 50px;
 	width: 50px;
-	}
-
+}
  @keyframes iconmove {
     0% {
     	left: 210px;
@@ -211,7 +74,6 @@ i {
 		top: 165px;
     }
  }
-
 .label-input {
 	text-align: center;
 	display: flex;
@@ -221,37 +83,30 @@ i {
 	line-height: 30px;
 	margin-bottom: 13px;
 	width: 220px;
-	}
-
-
+}
 .contact-form{
 	height: 400px;
-	}
-
+}
 .name {
 	height: 30px;
 	text-align: center;
 	font-size: 12px;
-	}
-
+}
 .email{
 	height: 30px;
 	text-align: center;
 	font-size: 12px;
-	}
-
+}
 .subject {
 	height: 30px;
 	text-align: center;
 	font-size: 12px;
-	}
-
+}
 textarea {
 	height: 140px;
 	text-align: center;
 	font-size: 12px;
-	}
-
+}
 button {
 	height: 30px;
 	cursor: pointer;
@@ -261,170 +116,49 @@ button {
 	width: 100%;
 	font-size: 12px;
 	transition: .3s ease-in;
-	}
-
+}
 button:hover {
 	border:1px solid black;
 	transition: .3s ease-in;
 	background-color: white;
 		color: black;
-	}
-
-
+}
 
 /* --contactame.HTML MOBILE CSS--*/
 
 @media only screen and (max-width: 900px) {
 
-body {
-	overflow-x: hidden;
-	}
-
-.contenedor {
-	height: 100vh;
-	width: 100%;
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows: 
-	30px
-	auto;	
-	grid-template-areas: "h"
-						 "m"								 
-	}
-
-.nav {
-	display: none;
-	}
 .main {
 	grid-area: m;
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: space-around;
-
 }
-
-.header {
-	width: 100%;
-	position: fixed;
-	height: 10vh;
-	justify-content: space-between;
-	background-color: white;
-	display: flex;
-	align-items: center;
-
-	}
-
-#logophone {
-
-	height: 60px;
-	width: 60px;
-	margin-left: 30px;
-	margin-top: 7px;
-	}
-
-.nav-links li {
-	list-style: none;
-
-	}
-
-.nav-links a {
-	color: black;
-	text-decoration: none;
-	font-size: 10px;
-	letter-spacing: 1px;
-
-
-	}
-
-.burguer div{
-	width: 30px;
-	height: 3px;
-	color: black;
-	background-color: black;
-	margin: 5px;
-	}
-
-.nav-links {
-	position: fixed;
-	display: flex;
-	flex-direction: column;
-	right: 0;
-	height: 90vh;
-	top: 10vh;
-	width: 50%;
-	background-color: white;
-	align-items: center;
-	justify-content: space-around;
-	line-height: 3vh;
-	transform: translateX(100%);
-	transition: transform 0.5s ease-in;
-	}
-
-.burguer {
-	cursor: pointer;
-	}
-
-.nav-active {
-	transform: translateX(0%);
-	}
-
-@keyframes navLinkFade {
-	from {
-		opacity: 0;
-		transform: translateX(50px);
-	}
-
-	to {
-		opacity: 1;
-		transform: translateX(0px);
-	}
-	}
-
-#instagramfa {
-	text-align: center;
-	width: 30px;
-	height: 30px;
-	font-size: 16px;
-
-	}
-
-#facebookfa {
-	text-align: center;
-	width: 30px;
-	height: 30px;
-	font-size: 16px;
-	margin-bottom: 50px;
-}
-
 #imgmapa {
 	display: none;
 	width: 250px;
 	height: 250px;
 	margin-top: 70px;
 	z-index: -1;
-	}
-
+}
 #mapa {
 	display: none;
 	border-radius: 0px;
 	height: 250px;
 	width: 250px;	
 	margin-bottom: 50px;
-	}
-
+}
 .direction {
 	height: 200px;
 	margin-top: 15vh;
 	justify-content: space-around;
 	line-height: 30px;
 	font-size: 13px;
-	}
-
+}
 .direction strong{
 	margin-top: 10px;
 	font-size: 13px
-	}
-
+}
 .icon1 {
 	position: absolute;
 	left: 130px;
@@ -433,13 +167,11 @@ body {
 	width: 50px;
 	animation-name: iconmoves;
 	animation-duration: .5s;
-	}
-
+}
 #icon {
 	height: 50px;
 	width: 50px;
-	}
-
+}
 @keyframes iconmoves {
     0% {
     	left: 130px;
@@ -457,10 +189,9 @@ body {
 	100% {
     	left: 130px;
 		top: 90px;
-    }
+}
 
- 	}
-
+}
 .label-input {
 	text-align: center;
 	display: flex;
@@ -470,43 +201,36 @@ body {
 	line-height: 30px;
 	margin-bottom: 13px;
 	width: 100%;
-	}
-
+}
 .contact-form{
 	margin-top: 70px;	
 	width: 80%;
 	height: 400px;
 	bottom: 40px;
 	margin-bottom: 50px;
-	}
-
+}
 .name {
 	height: 30px;
 	text-align: center;
 	font-size: 12px;
 
-	}
-
+}
 .email{
 	height: 30px;
 	text-align: center;
 	font-size: 12px;
-	}
-
+}
 .subject {
 	height: 30px;
 	text-align: center;
 	font-size: 12px;
-	}
-
+}
 textarea {
 	height: 140px;
 	text-align: center;
 	font-size: 12px;
-	}
-
+}
 button {
-
 	height: 30px;
 	cursor: pointer;
 	border: 0;
@@ -515,16 +239,13 @@ button {
 	width: 100%;
 	font-size: 12px;
 	transition: none;
-	}
-
+}
 button:hover{
 	border:1px solid black;
 	transition: none;
 	background-color: black;
 	color: white;
-	}
-
-
+}
 }
 
 
