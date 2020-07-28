@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: century-gothic, sans-serif;
-	}
+}
 
 /* --INDEX.HTML DESKTOP CSS--*/
 
@@ -16,17 +16,14 @@
 	grid-template-rows: 
 	100vh;
 	grid-template-areas: "n m"
-		}
-	
+}
 .header {
 	grid-area: h;
 	display: none;
-	}
-
+}
 .main {
 	grid-area: m;
-	}
-
+}
 .fullBackground {
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -39,7 +36,6 @@
     height: 100vh; 
     z-index: -1; 
 }
-
 .caption {
   font-size: 30pt;
   text-transform: uppercase;
@@ -50,7 +46,6 @@
   transform: translate(-50%, -50%);
   z-index: 0; 
 }
-
 .caption:after {
   content:"\A";
   width:10px;
@@ -61,14 +56,12 @@
   margin: 0 0 -2px;
   z-index: 0; 
 }
-
 .section {
 	background-color: blue;
 	grid-area: s;
 	display: none;
 	min-width: 100px;
-	}
-
+}
 .nav {
 	background-color: white;
 	grid-area: n;
@@ -76,29 +69,24 @@
 	flex-direction: column;
 	justify-content: space-around;
 	text-align: center;
-	}
-
+}
 .navizq {
 	position: absolute;
 	left: 75px;
 	top: 210px;
-	}
-
+}
 .item {
 	font-size: 13px;
 	list-style-type: none;
 	line-height: 30px;
-	}
-
+}
 .item a{
 	text-decoration: none;
 	color: black;
-	}
-
+}
 .item a:hover {	
 	text-decoration: underline;	
-	}
-
+}
 .logo img {
 	height: 80px;
 	width: 80px;
@@ -108,8 +96,7 @@
 	top: 50px;
 	cursor: pointer;
 
-	}
-
+}
 .social-iconli {
 	list-style-type: none;
 	display: inline-flex;
@@ -118,8 +105,7 @@
 	padding: 6px;
 	
 
-	}
-
+}
 .social-iconli:hover {
 	list-style-type: none;
 	display: inline-flex;
@@ -128,17 +114,13 @@
 	padding: 6px;
 	transform: scale(1.4);
 	transition: .2s ease-in;
-	}
-
+}
 .social-icons {
 	position: absolute;
 	bottom: 110px;
 	left: 65px;
 	color: black;
-	}
-
-
-
+}
 .smalllogo img {
 	position: absolute;
 	bottom: 50px;
@@ -146,34 +128,49 @@
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	}
-
-
+}
 i {
 
 	color: #212121;
-	}
-
+}
 	i:hover {
 
 	color: #000;
-	}
-
-
-
-
-
+}
+.logo img {
+	height: 80px;
+	width: 80px;
+	position: fixed;
+	left: 77px;
+	top: 50px;
+	cursor: pointer;
+}
+.navizq {
+	position: fixed;
+	left: 75px;
+	top: 210px;
+}
+.social-icons {
+	position: fixed;
+	bottom: 110px;
+	left: 65px;
+	color: black;
+}
+.smalllogo img {
+	position: fixed;
+	bottom: 50px;
+	left: 102px;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+}
 /* --INDEX.HTML MOBILE CSS--*/
-
-
 
 @media screen and (max-width: 600px) {
 
-
 body {
 	overflow-x: hidden;
-	}
-
+}
 .contenedor {
 	height: 100vh;
 	width: 100%;
@@ -184,12 +181,8 @@ body {
 	auto;	
 	grid-template-areas: "h"
 						 "m"								 
-	}
-
-
-
+}
 .fullBackground {
-
 	content: "";
 	background-size: cover;
 	background-position: center center;
@@ -200,9 +193,7 @@ body {
     height: 900px;
     visibility: visible;
     z-index: -1;
-	
-	}
-
+}
 .caption {
   font-size: 30pt;
   text-transform: uppercase;
@@ -213,7 +204,6 @@ body {
   transform: translate(-50%, -50%);
   z-index: 0; 
 }
-
 .caption:after {
   content:"\A";
   width:10px;
@@ -224,15 +214,9 @@ body {
   margin: 0 0 -2px;
   z-index: 0; 
 }
-
-
-
-
-
 .nav {
 	display: none;
-	}
-
+}
 .header {
 	width: 100%;
 	position: fixed;
@@ -242,39 +226,29 @@ body {
 	display: flex;
 	align-items: center;
 	z-index: 1;
-	}
-
+}
 #logophone {
-
 	height: 60px;
 	width: 60px;
 	margin-left: 30px;
 	margin-top: 7px;
-	}
-
+}
 .nav-links li {
-	
 	list-style: none;
-	}
-
+}
 .nav-links a {
-
 	color: black;
 	text-decoration: none;
 	font-size: 10px;
 	letter-spacing: 1px;
-
-
-	}
-
+}
 .burguer div{
 	width: 30px;
 	height: 3px;
 	color: black;
 	background-color: black;
 	margin: 5px;
-	}
-
+}
 .nav-links {
 	position: fixed;
 	display: flex;
@@ -289,16 +263,13 @@ body {
 	line-height: 3vh;
 	transform: translateX(100%);
 	transition: transform 0.5s ease-in;
-	}
-
+}
 .burguer {
 	cursor: pointer;
-	}
-
+}
 .nav-active {
 	transform: translateX(0%);
-	}
-
+}
 @keyframes navLinkFade {
 	from {
 		opacity: 0;
@@ -309,26 +280,20 @@ body {
 		opacity: 1;
 		transform: translateX(0px);
 	}
-	}
-
+}
 #instagramfa {
 	text-align: center;
 	width: 30px;
 	height: 30px;
 	font-size: 16px;
-
-	}
-
+}
 #facebookfa {
-
 	text-align: center;
 	width: 30px;
 	height: 30px;
 	font-size: 16px;
 	margin-bottom: 50px;
 }
-
-
 }
 
 

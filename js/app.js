@@ -14,3 +14,10 @@ const navSlide = () => {
 }
 
 navSlide();
+
+
+$('.fullBackground').fullClip({
+	images: ['img/lab.jpg', 'img/barbacue.jpg', 'img/kitchen.jpg', 'img/building.jpg'],
+	transitionTime: 3000,
+	wait: 14000
+});
