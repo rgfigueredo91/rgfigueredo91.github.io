@@ -39,13 +39,21 @@ document.addEventListener("DOMContentLoaded", function(e){
         document.getElementById("imagoenglishphone").textContent = language.eng.imago;
         document.getElementById("homeenglishphone").textContent = language.eng.home;
 
-        //mantener idioma al cambiar desktop
+        //mantener idioma al cambiar desktop y phone
         document.getElementById("contactenglishphone").href = "contactame.html#eng";
         document.getElementById("projectenglishphone").href = "proyectos.html#eng";
         document.getElementById("aboutenglishphone").href = "sobremi.html#eng";
         document.getElementById("homeenglishphone").href = "index.html#eng";
-
-        
+        document.getElementById("barbacueproject").href = "barbacue.html#eng";
+        document.getElementById("apartmentproject").href = "apartment.html#eng"; 
+        document.getElementById("labproject").href = "lab.html#eng"; 
+        document.getElementById("buildingproject").href = "building.html#eng"; 
+        document.getElementById("house2018project").href = "housing-competition.html#eng"; 
+        document.getElementById("house2018bproject").href = "housing-competition2.html#eng"; 
+        document.getElementById("finalcareerproject").href = "final-career-pr.html#eng"; 
+        document.getElementById("urbanproject").href = "urban-project.html#eng"; 
+        document.getElementById("house2015project").href = "housing-competition3.html#eng"; 
+        document.getElementById("house2016project").href = "housing-competition4.html#eng"; 
     }
    
 });
