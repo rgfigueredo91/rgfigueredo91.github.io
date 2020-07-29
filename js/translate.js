@@ -17,6 +17,12 @@ document.addEventListener("DOMContentLoaded", function(e){
     //define language via window hash
     if (window.location.hash === "#eng") {
         //Para desktop
+         //mantener idioma al cambiar desktop
+        document.getElementById("contactenglish").href = "contactame.html#eng";
+        document.getElementById("projectenglish").href = "proyectos.html#eng";
+        document.getElementById("aboutenglish").href = "sobremi.html#eng";
+        document.getElementById("homeenglish").href = "index.html#eng";
+
         document.getElementById("contactenglish").textContent = language.eng.contact;
         document.getElementById("projectenglish").textContent = language.eng.project;
         document.getElementById("aboutenglish").textContent = language.eng.about;
@@ -24,31 +30,26 @@ document.addEventListener("DOMContentLoaded", function(e){
         document.getElementById("homeenglish").textContent = language.eng.home;
         document.getElementById("tittleenglish").textContent = language.eng.tittleEnglish;
 
-        //mantener idioma al cambiar desktop
-        document.getElementById("contactenglish").href = "contactame.html#eng";
-        document.getElementById("projectenglish").href = "proyectos.html#eng";
-        document.getElementById("aboutenglish").href = "sobremi.html#eng";
-        document.getElementById("homeenglish").href = "index.html#eng";
-
-        
-        document.getElementById("paragraphabout").textContent = language.eng.paragraphAboutOne;
-        document.getElementById("paragraphabout2").textContent = language.eng.paragraphAboutTwo;
-        document.getElementById("paragraphaboutZero").textContent = language.eng.paragraphAboutZero;
-        document.getElementById("downloadcv").textContent = language.eng.downloadcv;
-        
-
-        //Para phone
         document.getElementById("contactenglishphone").textContent = language.eng.contact;
         document.getElementById("projectenglishphone").textContent = language.eng.project;
         document.getElementById("aboutenglishphone").textContent = language.eng.about;
         document.getElementById("imagoenglishphone").textContent = language.eng.imago;
         document.getElementById("homeenglishphone").textContent = language.eng.home;
 
-        //mantener idioma al cambiar desktop y phone
         document.getElementById("contactenglishphone").href = "contactame.html#eng";
         document.getElementById("projectenglishphone").href = "proyectos.html#eng";
         document.getElementById("aboutenglishphone").href = "sobremi.html#eng";
         document.getElementById("homeenglishphone").href = "index.html#eng";
+        
+        document.getElementById("paragraphabout").textContent = language.eng.paragraphAboutOne;
+        document.getElementById("paragraphabout2").textContent = language.eng.paragraphAboutTwo;
+        document.getElementById("paragraphaboutZero").textContent = language.eng.paragraphAboutZero;
+        document.getElementById("downloadcv").textContent = language.eng.downloadcv;
+       
+ 
+       
+        //mantener idioma al cambiar desktop y phone
+        
         document.getElementById("barbacueproject").href = "barbacue.html#eng";
         document.getElementById("apartmentproject").href = "apartment.html#eng"; 
         document.getElementById("labproject").href = "lab.html#eng"; 
