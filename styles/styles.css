@@ -63,17 +63,19 @@
 	min-width: 100px;
 }
 .nav {
+	width: 100%;
 	background-color: white;
 	grid-area: n;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	text-align: center;
+	position: relative;
 }
 .navizq {
-	position: absolute;
-	left: 75px;
 	top: 210px;
+	position: fixed;
+	width: 230px;
 }
 .item {
 	font-size: 13px;
@@ -145,11 +147,7 @@ i {
 	top: 50px;
 	cursor: pointer;
 }
-.navizq {
-	position: fixed;
-	left: 75px;
-	top: 210px;
-}
+
 .social-icons {
 	position: fixed;
 	bottom: 110px;
