@@ -93,11 +93,7 @@
 	font-weight: 1000;
 	margin-bottom: 10px;
 }
-.engesp:hover:nth-child(1){
-	transform: scale(1.1);
-	transition: .2s ease-in;
-	
-}
+
 .social-iconli {
 	list-style-type: none;
 	display: inline-flex;
