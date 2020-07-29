@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function(e){
             about: " about me",
             imago: " imago",
             home: " home",
-            paragraphAboutZero:"Hi! I am Rodrigo Gastón Figueredo, architect graduated from the college of Architecture, Design and Urban planning, Montevideo-Uruguay. I'm specialize in architectural projects, from the first sketches and its initial concept, to the final materialization.",
+            paragraphAboutZero:"Hi! I'm Rodrigo Gastón Figueredo, an architect graduated from the college of Architecture, Design and Urban planning, Montevideo-Uruguay. I'm specialize in architectural projects, from the first sketches and its initial concept, to the final materialization.",
             paragraphAboutOne: 'My training and experience in architecture, integrated with a professional use of computer technologies (Building Information Modeling "BIM") allow me to generate a 3D model that develops a real construction process, improving productivity, coordination and reducing costs, in addition to being able providing the client a hyper-realistic functional and visual experience before the buildings concretion. I have advisers and experts from each area for the execution of residential, commercial and industrial projects.',
             downloadcv: "Download my CV",
             paragraphAboutTwo: "I am a co-founder of architectural visualization studio " + linktxt + ", producing trusted architectural visualization services for busineses and architecture professionals. I'm specialized in developing Architectural Renderings, 3D Architecture, Computer Graphics Images and any kind of Architectural Visualization in the field of architecture, urban planning and civil engineering.",
-            
+            tittleEnglish:"architecture"
         }
     };
     //define language via window hash
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(e){
         document.getElementById("aboutenglish").textContent = language.eng.about;
         document.getElementById("imagoenglish").textContent = language.eng.imago;
         document.getElementById("homeenglish").textContent = language.eng.home;
-        
+        document.getElementById("tittleenglish").textContent = language.eng.tittleEnglish;
 
         //mantener idioma al cambiar desktop
         document.getElementById("contactenglish").href = "contactame.html#eng";
@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function(e){
         document.getElementById("paragraphabout2").textContent = language.eng.paragraphAboutTwo;
         document.getElementById("paragraphaboutZero").textContent = language.eng.paragraphAboutZero;
         document.getElementById("downloadcv").textContent = language.eng.downloadcv;
+        
 
         //Para phone
         document.getElementById("contactenglishphone").textContent = language.eng.contact;

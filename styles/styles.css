@@ -89,16 +89,7 @@
 .item a:hover {	
 	text-decoration: underline;	
 }
-.logo img {
-	height: 80px;
-	width: 80px;
-	
-	position: absolute;
-	left: 77px;
-	top: 50px;
-	cursor: pointer;
 
-}
 .social-iconli {
 	list-style-type: none;
 	display: inline-flex;
@@ -139,15 +130,18 @@ i {
 
 	color: #000;
 }
-.logo img {
-	height: 80px;
-	width: 80px;
-	position: fixed;
-	left: 77px;
+.logo {
+	width: 100%;
+	position: absolute;
 	top: 50px;
 	cursor: pointer;
+	font-weight: 2000;
+	text-decoration: none;
+	color: black;
 }
-
+.logo h5 {
+	margin-top: 20px;
+}
 .social-icons {
 	position: fixed;
 	bottom: 110px;
