@@ -89,15 +89,21 @@
 .item a:hover {	
 	text-decoration: underline;	
 }
-
+.engesp {
+	font-weight: 1000;
+	margin-bottom: 10px;
+}
+.engesp:hover:nth-child(1){
+	transform: scale(1.1);
+	transition: .2s ease-in;
+	
+}
 .social-iconli {
 	list-style-type: none;
 	display: inline-flex;
 	font-size: 16px;
 	color: black;
 	padding: 6px;
-	
-
 }
 .social-iconli:hover {
 	list-style-type: none;
@@ -126,8 +132,7 @@ i {
 
 	color: #212121;
 }
-	i:hover {
-
+i:hover {
 	color: #000;
 }
 .logo {
