@@ -131,13 +131,14 @@ i {
 	color: #000;
 }
 .logo {
-	width: 100%;
-	position: absolute;
+	width: 230px;
+	position: fixed;
 	top: 50px;
 	cursor: pointer;
 	font-weight: 2000;
 	text-decoration: none;
 	color: black;
+	
 }
 .logo h5 {
 	margin-top: 20px;
